@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch Directory Service
+
+[Service]
+Type=simple
+ExecStart= /usr/local/bin/vladlen_script_10.sh
+
+[Install]
+WantedBy=default.target
